@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/TAP_AREA"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:hint="TAP ANYWHERE!"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:onClick="OnClick" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/Display"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/background_dark"
+            android:textSize="40dp"
+            />
+
+
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
