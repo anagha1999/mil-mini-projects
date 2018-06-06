@@ -1,0 +1,2 @@
+Displays user data:
+Trace the path of the ativities and buttons pressed.
