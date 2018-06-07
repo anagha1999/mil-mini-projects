@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TracePathMiniProject</string>
+
+    <string-array name="activity_list">
+        <item>None</item>
+        <item>Activity 1</item>
+        <item>Activity 2</item>
+        <item>Activity 3</item>
+        <item>Activity 4</item>
+        <!--<item>Saturn</item>-->
+        <!--<item>Uranus</item>-->
+        <!--<item>Neptune</item>-->
+    </string-array>
+</resources>
